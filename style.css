@@ -1,4 +1,17 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 
+h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #CD853F;
+}
+
+p, li {
+  font-size: .9rem;
+}
 
 .navbar-brand {
   font-family: 'Mrs Saint Delafield', cursive;
@@ -23,6 +36,10 @@
 
 .name h1, .name p {
   text-transform: uppercase;
+}
+
+.name h1 {
+  border-bottom: 2px solid currentColor;
 }
 
 
@@ -52,7 +69,7 @@
 }
 
 .card li:hover {
-  background-color: wheat;
+  background-color: #CD853F;
   width: 90%;
   padding-left: 1rem;
   cursor: pointer;
